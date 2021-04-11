@@ -9,4 +9,9 @@ intro_paragraph: >
   Features [Netlify CMS](https://www.netlifycms.org), responsive
   CSS Grid layout, sample
   pages and posts, and a continuous deployment workflow.
+<<<<<<< HEAD
+=======
+
+  Hallo Jule. Hallo Malte! Muhahaha, website infiltriert!
+>>>>>>> bd811f3c1c012d03c41f240b954d680ba79a9afa
 ---
