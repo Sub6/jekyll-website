@@ -3,7 +3,7 @@ layout: post
 title: Customizing Airplane Mode in Android
 meta_description: A way to actually fine tune what is turned off if Airplane Mode is activated 
 author: JohnDeep
-date: '2021-04-12 18:32:00'
+date: '2021-04-12 13:32:00'
 categories: android airplane_mode misc
 ---
 You want to turn on `Airplane Mode` on your Android phone, but don't want Bluetooth to be disable every time? Or even, you want to customize what to turn off with `Airplane Mode`?
