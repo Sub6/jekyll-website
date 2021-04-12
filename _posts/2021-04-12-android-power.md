@@ -108,7 +108,11 @@ Let's say, you have some active bluetooth connections running, be it because of 
 The following setting will help you with that:
 
 ```
-$ settings set global airplane_mode_radios cell,wifi,nfc,wimax
+$ settings set global airplane_mode_radios ..
+```
+and then
+```
+.. cell,wifi,nfc,wimax
 ```
 
 With this, every time you switch on `Airplane Mode`, all radios will be turned off except for `bluetooth`, since we left out that keyword in the settings. In fact, `Airplane Mode` won't touch your Bluetooth setting anymore. Every keyword you left out in above setting, it will be ignored if `Airplane Mode` is activated.
