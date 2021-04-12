@@ -19,10 +19,10 @@ All you need is a pc or laptop, which can run `adb` (Android Debug Bridge). No t
 
 It will be used to access and set some settings directly on your phone. Only for that? Do not underestimate `adb`, since it can do many more things than only for this! But for the sake of this article, we settle down for the customization of our `Airplane Mode`.
 
-## Install `adb`
+### Install adb
 ---
 
-### Linux
+#### Linux
 
 If you have Linux, then go into your repository and just install the package `adb`. In Debian, Ubuntu or PopOS! for example, it would work like this:
 
@@ -34,14 +34,14 @@ Done.
 
 If, by any chance, you want to install that package directly from Google, open [this](https://dl.google.com/android/repository/platform-tools-latest-linux.zip). It is a link directly to the latest ZIP file for download. Follow the instruction in that package.
 
-### Windows / Mac
+#### Windows / Mac
 
 First check if you have the right USB driver at all. Please visit Googles own help [here](https://developer.android.com/studio/run/oem-usb.html).
 
 Then you need to download and install `adb` for [Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) or [Mac](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip). These links will lead to the latest corresponding ZIP packages. Follow the instruction in that package.
 
 
-## Prepare `adb` and your phone
+### Prepare adb and your phone
 ---
 
 First of all, you need to access the `Developer Options` and enable `USB Debugging`. If you don't know what I'm talking about, start from step 1, else proceed with step 2.
@@ -69,7 +69,7 @@ It should display the series number of your phone only. Unplug any other devices
 Now we're finally ready to explore the `Airplane mode` setting.
 
 
-## Customize `Airplane Mode` on your phone
+### Customize Airplane Mode on your phone
 ---
 
 Let's start by entering the shell of your Android device. If successful, it will look like this:
@@ -85,7 +85,7 @@ Typically instead of `brot`, there will be an abbreviation of your device name. 
 $ settings get global airplane_mode_radios
 ```
 
-### Explanation
+#### Explanation
 
 The command `settings get global` is used here to get (not change) the current status of `ariplane_mode_radios`, which is actually the list of every available radios which will be disabled if `Airplane Mode` is enabled. The available radios are:
 
@@ -99,7 +99,7 @@ The command `settings get global` is used here to get (not change) the current s
 
 To be honest, I didn't know about WiMAX at all until I started to looked it up. If you're not living in the USA, chances are high that you don't know about this technology, me neither.
 
-### Set some Examples
+#### Set some Examples
 
 Let's say, you have some active bluetooth connections running, be it a smartwatch, your headset or a gaming pad. Sometimes you want to turn on `Airplane Mode` to cut all internet connections to prevent your contacts to constantly disturbing you. But you still want to listen to the music currently running or just prevent your smartwatch to lose connectivity every time. Even if it's only until you turned on Bluetooth manually again, it can be quite annoying, having to do that Every. Single. Time.
 
