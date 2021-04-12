@@ -2,12 +2,6 @@
 layout: default
 ---
 
-td {
-	border: 0px solid;
-	overflow: hidden;
-	vertical-align: top;
-}
-
 <h2>{{ page.title }}</h2>
 
   {% include page-intro.html %}
@@ -18,10 +12,10 @@ td {
 
     <h3>Recent posts from the blog</h3>
 
-    <table>
+    <table style="border: 0px solid;overflow: hidden;vertical-align: top;">
       {% for post in site.posts limit:6 %}
       <tr>
-        <td><time datetime="{{ post.date }}"><strong>{{ post.date | date_to_string }}</strong></time></td>
+        <td style="padding-right:15px"><time datetime="{{ post.date }}"><strong>{{ post.date | date_to_string }}</strong></time></td>
         <td><a href="{{ post.url }}">{{ post.title }}</a></td>
       </tr>
       {% endfor %}
