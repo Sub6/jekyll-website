@@ -19,7 +19,7 @@ All you need is a pc or laptop, which can run `adb` (Android Debug Bridge). That
 
 It will be used to access and set some settings directly on your phone. But only for that? Tsk, do not underestimate `adb`, since it can do many more things than that! But for the sake of this article, we settle down for the customization of our `Airplane Mode`.
 
-## Install `adb`
+## Install adb
 ---
 
 ### Linux
@@ -41,7 +41,7 @@ Check if you have the right USB driver at all. Please visit Googles help for thi
 Then you need to download and install `adb` for [Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) or [Mac](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip). These links will lead to the latest corresponding ZIP packages. Follow the instruction in that package.
 
 
-## Prepare `adb` and your phone
+## Prepare adb and your phone
 ---
 
 After the installation is done, we need to prepare your phone first.
@@ -71,10 +71,10 @@ It should display the series number of your phone only. Unplug any other devices
 Now we're finally ready to explore the `Airplane mode` setting.
 
 
-## Customize `Airplane Mode` on your phone
+## Customize Airplane Mode on your phone
 ---
 
-Let's start by entering the shell of your Android device. If successful, it will look like this:
+Let's start by entering the shell of your Android device with the command `adb shell`. If successful, it will look like this:
 
 ```
 % adb shell
