@@ -53,13 +53,13 @@ defaults:
       section: "post" # set the root section name
 
 # Build settings
-# markdown: kramdown
-markdown: redcarpet
+markdown: kramdown
 
 # Kramdown options
-# kramdown:
+kramdown:
   # Prevent IDs from being added to h1-h6 tags
-  # auto_ids: false
+  auto_ids: false
+  math_engine: mathjax
 
 # Include in processing (e.g. Netlify directives)
 # Uncomment before use
