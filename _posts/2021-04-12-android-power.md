@@ -2,7 +2,7 @@
 layout: post
 title: Customizing Airplane Mode in Android
 meta_description: A way to actually fine tune what is turned off if Airplane Mode is activated 
-author: JohnDeep
+author: tung_thai
 date: '2021-04-12 13:32:00'
 categories: android airplane_mode misc
 ---
