@@ -54,7 +54,7 @@ defaults:
 
 # Build settings
 # markdown: kramdown
-markdown: GFM
+markdown: redcarpet
 
 # Kramdown options
 # kramdown:
