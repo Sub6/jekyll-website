@@ -16,10 +16,9 @@
 title: nwks naɪtwɜːks
 email: tobe@done
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml.
+  Our small project archive. Brought to you by… us.
 baseurl: "" # the subpath of your site if applicable, e.g. /blog
-url: "https://jekyll-netlify-boilerplate.netlify.com" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://blog.nwks.de" # the base hostname & protocol for your site, e.g. https://example.com
 
 # Permalink format (/blog/ is ignored for pages)
 permalink: /blog/:title
@@ -29,7 +28,7 @@ permalink: /blog/:title
 section: true
 
 # set to 'true' to enable Netlify CMS (/admin) in production builds
-netlifycms: true
+#netlifycms: true
 
 # set to 'true' to enable Google Analytics tracking code in production builds
 analytics: false
