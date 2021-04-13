@@ -28,7 +28,7 @@ permalink: /blog/:title
 section: true
 
 # set to 'true' to enable Netlify CMS (/admin) in production builds
-netlifycms: true
+#netlifycms: true
 
 # set to 'true' to enable Google Analytics tracking code in production builds
 analytics: false
