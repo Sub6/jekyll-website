@@ -208,15 +208,10 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 
-/**
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
-  height: 0;
-}
-*/
-hr {
-  background: black; height: 2px; border: none
+  width: 100%;
 }
 
 /**
