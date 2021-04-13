@@ -41,10 +41,9 @@ a {
 	outline: none;
 }
 
-ul,
-ol,
-dl {
-	list-style: none;
+ul, ol, dl {
+	/* list-style: inside; */
+	padding: revert;
 }
 
 em {
