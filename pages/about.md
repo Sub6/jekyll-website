@@ -12,7 +12,7 @@ This website shall be used for us to collect and store what we came across durin
 
 ### Who we are
 
-By time, we reveal who we are.
+By time, we may reveal who we are.
 
 #### Purpose of this little blog
 
