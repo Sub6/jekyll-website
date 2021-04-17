@@ -4,7 +4,7 @@ title: "Contact"
 permalink: /contact
 section: contact
 intro_paragraph: |-
-  Seems you found your way here. So you've got a question or complain?
+  Seems you found your way here. So you've got a question or complaint?
 ---
 
 **Send us a message**
