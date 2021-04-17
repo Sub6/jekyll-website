@@ -187,3 +187,21 @@ cite {
   font-style: italic;
   color: grey;
 }
+
+ul.MainFront {
+  li {
+    list-style-type: none;
+
+    // margin: 1rem 0 0 0;
+    // border-radius: 0.5rem;
+
+    padding: 1rem 0;
+
+    // background-color: rgba(182, 182, 182, 0.1);
+    time {
+      display: block;
+      // text-align: right;
+      font-size: 80%;
+    }
+  }
+}
