@@ -132,6 +132,7 @@ nav[aria-label="Adjacent Posts"] {
   ul {
     display: flex;
     li {
+      list-style: none;
       flex: 0 0 50%;
       width: auto;
       &:nth-child(2) {
