@@ -15,10 +15,20 @@ layout: default
     <table class="MainFront">
       {% for post in site.posts limit:6 %}
       <tr>
+        <td><a href="{{ post.url }}">{{ post.title }}</a></td></br>
+        
+        <td><time datetime="{{ post.date }}">{{ post.date | date: "%Y, %-d %B" }}</time></td>
+      </tr>
+      {% endfor %}
+    </table>
+
+        <!-- <table class="MainFront">
+      {% for post in site.posts limit:6 %}
+      <tr>
         <td><time datetime="{{ post.date }}"><strong>{{ post.date | date: "%Y, %-d %B" }}</strong></time></td>
         <td><a href="{{ post.url }}">{{ post.title }}</a></td>
       </tr>
       {% endfor %}
-    </table>
+    </table> -->
 
   </section>
