@@ -4,7 +4,7 @@ title: "About"
 meta_description: |
   Collection of tutorials, tech tips, documentations and more.
 permalink: /about
-section: /about
+section: about
 intro_paragraph: |
   Collection of tutorials, tech tips, documentations and more.
 ---

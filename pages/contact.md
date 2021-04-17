@@ -2,7 +2,7 @@
 layout: contact
 title: "Contact"
 permalink: /contact
-section: /contact
+section: contact
 intro_paragraph: |-
   Seems you found your way here. So you've got a question or complain?
 ---
