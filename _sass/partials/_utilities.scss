@@ -114,7 +114,9 @@ main > ul,
 ol,
 dl {
   // list-style: inside;
+  margin: 1rem 0 1rem 0;
   padding: revert;
+  font-family: serif;
 }
 
 em {
@@ -145,11 +147,6 @@ pre > code {
   color: rgb(226, 226, 226);
 }
 
-// code {
-//   background-color: $grey-bg-color;
-//   // padding: 0.2rem 0.4rem;
-// }
-
 // ::selection {
 //   background-color: $selection-bg-color;
 // }
@@ -175,9 +172,13 @@ button {
 blockquote {
   margin: 0.5rem 0 0.5rem 0;
   padding: 0 1rem 0 1rem;
+  border-radius: 0.3rem;
   border-left: 3px solid rgba(148, 41, 241, 0.616);
-  background-color: rgba(0, 0, 0, 0.1);
-  font-size: 90%;
+  background-color: rgba(52, 0, 73, 0.1);
+  p {
+    font-size: 90%;
+    font-family: $base-font;
+  }
 }
 
 cite {

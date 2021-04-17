@@ -14,7 +14,7 @@ Very well, I can give you a rough idea of how that can be done. You can do this 
 All you need is a pc or laptop, which can run `adb` (Android Debug Bridge). That's it. No third party app or software, only tools which you can fetch from Google directly.
 
 > Android Debug Bridge (adb) is a versatile command-line tool that lets you communicate with a device. The adb command facilitates a variety of device actions, such as installing and debugging apps, and it provides access to a Unix shell that you can use to run a variety of commands on a device.
-> -- <cite>from Google [1]</cite>
+> <cite>from Google [1]</cite>
 
 [1]: https://developer.android.com/studio/command-line/adb
 
