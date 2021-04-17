@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "nwks:nightworks"
+title: "nightworks:naɪtwɜːks"
 permalink: /
 section: home
 intro_paragraph: >
