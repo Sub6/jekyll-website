@@ -90,9 +90,8 @@ $ settings get global airplane_mode_radios
 
 ### Explanation
 
-The command `settings get global` is used here to get (read only) the current status of `ariplane_mode_radios`, which is actually the list of every available radios which will be disabled if `Airplane Mode` is enabled. The available radios are:
+The command `settings get global` is used here to get (read only) the current status of `airplane_mode_radios`, which is actually the list of every available radios which will be disabled if `Airplane Mode` is enabled. The available radios are:
 
-|---
 | Keyword | Explanation
 |-|:-|
 | `cell` | Cellular radio, which includes GPRS (2G), UMTS (3G), LTE (4G) and 5G.
@@ -100,11 +99,10 @@ The command `settings get global` is used here to get (read only) the current st
 | `bluetooth` | Short-range wireless technology standard. It is mostly used for wireless headset, gaming pads or fitness tracking devices in our everyday life cases.
 | `nfc` | Near Field Communication. Communication protocol between devices over a distance of only 4 cm or less. Works with induction and is relatively slow. Usually used for payment systems or often integrated in identity cards of all sorts for identification, both without contact.
 | `wimax` | Worldwide Interoperability for Microwave Access, a family of wireless broadband communication standard based on the IEEE-Standard 802.16. It is sometimes also counted as one of the 4G technologies.
-|---
 
 To be honest, I didn't know about WiMAX at all until I started to look it up. If you're not living in the USA, chances are high that you don't know about this technology, me neither.
 
-### An Examples
+### For Example
 
 Let's say, you have some active bluetooth connections running, be it because of a smartwatch, your headset or a gaming pad. Sometimes you want to turn on `Airplane Mode` to cut all internet connections to prevent your contacts to constantly disturbing you. But you still want to listen to the music currently running or just prevent your smartwatch to lose connectivity every time. Even if it's only until you turned on Bluetooth manually again, it can be quite annoying, having to do that Every. Single. Freaking. Time.
 

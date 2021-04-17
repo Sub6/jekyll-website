@@ -9,7 +9,7 @@ layout: default
   <small>
     <strong>{{ page.date | date_to_string }}</strong>
     {% if author %}
-      by {{ author.name }}
+    by {{ author.name }}
     {% endif %}
   </small>
 </time>
@@ -21,14 +21,14 @@ layout: default
 <nav aria-label="Adjacent Posts">
   <ul>
     {% if page.previous.url %}
-      <li>
-        <a href="{{page.previous.url}}" rel="prev">&laquo; {{page.previous.title}}</a>
-      </li>
+    <li class="previous">
+      <a href="{{page.previous.url}}" rel="prev">&laquo; {{page.previous.title}}</a>
+    </li>
     {% endif %}
     {% if page.next.url %}
-      <li>
-        <a href="{{page.next.url}}" rel="next">{{page.next.title}} &raquo;</a>
-      </li>
+    <li class="next">
+      <a href="{{page.next.url}}" rel="next">{{page.next.title}} &raquo;</a>
+    </li>
     {% endif %}
   </ul>
 </nav>

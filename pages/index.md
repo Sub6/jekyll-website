@@ -1,9 +1,8 @@
 ---
 layout: home
-title: Hey
+title: "nwks : Night Works"
 permalink: /
 section: home
 intro_paragraph: >
-  Little webpage for docs and other small fries.
-  Brought to you by... us.
+  Collection of guides, tech tips, docs and more. Just for record. Unpolitical and straight forward.
 ---

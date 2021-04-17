@@ -132,10 +132,10 @@ dfn {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
+// h1 {
+//   font-size: 2em;
+// //   // margin: 0.67em 0;
+// }
 
 /**
  * Address styling not present in IE 8/9.
@@ -209,9 +209,15 @@ figure {
  */
 
 hr {
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
+  padding: 0;
+  border: none;
+  // border-top: medium double #333;
+  // -webkit-box-sizing: content-box;
+  // box-sizing: content-box;
   width: 100%;
+  background: rgb(0, 70, 70);
+  height: 5px;
+  border-right: rgb(99, 200, 150) solid 12px;
 }
 
 /**
@@ -226,13 +232,13 @@ pre {
  * Address odd `em`-unit font size rendering in all browsers.
  */
 
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
+// code,
+// kbd,
+// pre,
+// samp {
+//   font-family: monospace, monospace;
+//   font-size: 1em;
+// }
 
 /* Forms
    ========================================================================== */
@@ -411,16 +417,29 @@ optgroup {
 /* Tables
    ========================================================================== */
 
-/**
- * Remove most spacing between table cells.
- */
-
 table {
+  margin: 0.5rem 0 1rem 0;
   border-collapse: collapse;
-  border-spacing: 0;
+}
+
+table.MainFront {
+  td,
+  th {
+    border: 0;
+    padding-right: 1rem;
+  }
+}
+
+thead {
+  border-bottom: grey solid 4px;
+  font-weight: bold;
+  text-align: left;
 }
 
 td,
 th {
-  padding: 0;
+  border-bottom: grey solid 2px;
+  padding: 0.2em;
+  font-size: 90%;
+  vertical-align: middle;
 }

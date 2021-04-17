@@ -1,7 +1,7 @@
 // site colours
 $text-color: rgb(40,40,40);
 $text-color-negative: white;
-$brand-color: rgb(29,37,52);
+$brand-color: rgb(20, 14, 44);
 $link-color: rgb(0,114,154);
 $link-hover-color: rgb(0,57,78);
 $grey-bg-color: rgb(243,243,243);
@@ -9,8 +9,8 @@ $hairline-color: rgb(230,230,230);
 $selection-bg-color: rgba(255,255,100,0.5);
 
 // typographic defaults
-$base-font: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue;
-$code-font: Courier, monospace;
+$base-font: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Arial,Noto Sans,sans-serif;
+$code-font: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
 $base-font-size: 62.5%;
 $base-font-weight: 300;
 $bold-font-weight: 600;
@@ -18,7 +18,7 @@ $base-line-height: 1.5;
 
 // viewport breakpoints
 $screen-xs-min: 480px;
-$screen-sm-min: 768px;
+$screen-sm-min: 540px;
 $screen-md-min: 992px;
 $screen-lg-min: 1240px;
 $screen-xl-min: 1920px;
