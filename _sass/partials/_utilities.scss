@@ -236,6 +236,9 @@ cite {
   text-align: right;
   font-style: italic;
   color: rgb(58, 58, 58);
+  @media (prefers-color-scheme: dark) {
+    color: rgb(192, 192, 192);
+  }
 }
 
 ul.MainFront {

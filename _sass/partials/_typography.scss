@@ -17,9 +17,13 @@
 
 body {
   color: $text-color;
+  font-weight: $base-font-weight;
+  @media (prefers-color-scheme: dark) {
+    color: $dark-text-color;
+    font-weight: $dark-base-font-weight;
+  }
   font-family: $base-font;
   line-height: $base-line-height;
-  font-weight: $base-font-weight;
   font-style: normal;
 	font-variant: normal;
 }
@@ -71,7 +75,10 @@ h3 {
 
 code {
   font-family: $code-font;
-  color: mix($text-color, rgb(200, 0, 0));
+  color: $code-color;
+  @media (prefers-color-scheme: dark) {
+    color: $dark-code-color;
+  }
 }
 
 strong {
@@ -87,13 +94,20 @@ a:visited {
   // border-bottom: 0.05em solid $link-color;
 	text-decoration: none;
 	color: $link-color;
+  @media (prefers-color-scheme: dark) {
+    color: $dark-link-color;
+  }
 }
 
 a:hover,
 a:active {
   text-decoration: none;
   border: 0;
+
   color: $link-hover-color;
+  @media (prefers-color-scheme: dark) {
+    color: $dark-link-hover-color;
+  }
 }
 
 // header > h1 {

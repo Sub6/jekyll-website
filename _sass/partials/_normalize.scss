@@ -190,9 +190,16 @@ hr {
   // border-top: medium double #333;
   // box-sizing: content-box;
   width: 100%;
-  background: $brand-color;
   height: 5px;
+
+  background: $text-color;
   border-right: $link-color solid 12px;
+
+  @media (prefers-color-scheme: dark) {
+    background: $dark-text-color;
+    border-right: $dark-link-color solid 12px;
+
+  }
 }
 
 /**

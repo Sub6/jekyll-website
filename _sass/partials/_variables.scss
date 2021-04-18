@@ -1,25 +1,37 @@
-// site colours
-$text-color: rgb(40,40,40);
-$text-color-negative: rgb(236, 236, 236);
-$brand-color: rgb(29, 21, 63);
-$link-color: rgb(0,114,154);
-$link-hover-color: rgb(0,57,78);
-$grey-bg-color: rgb(243,243,243);
-$hairline-color: rgb(230,230,230);
-// $selection-bg-color: rgba(54, 28, 110, 0.5);
+
+// site colors light mode
+$brand-color: #38444d;
+$text-color: rgb(40, 40, 40);
+$link-color: rgb(0, 88, 121);
+$code-color: rgb(110, 54, 54);
+$link-hover-color: rgb(0, 57, 78);
+$foot-bg-color: rgb(243, 243, 243);
+$hairline-color: rgb(230, 230, 230);
+
+// site colors dark mode
+$dark-background: #38444d;
+$dark-brand-color: #262626;
+$dark-text-color: rgb(202, 207, 231);
+$dark-link-color: rgb(163, 233, 233);
+$dark-code-color: rgb(245, 171, 171);
+$dark-link-hover-color: rgb(181, 204, 212);
+$dark-foot-bg-color: rgb(69, 72, 75);
+$dark-hairline-color: rgb(114, 114, 114);
 
 // typographic defaults
-// $base-font: serif;
 $base-font: Verdana, Arial, sans-serif;
 $read-font: "Times New Roman", Times, serif;
-// $read-font: Georgia, Garamond, serif;
-$code-font: 'Courier New', monospace;
+$code-font: "Courier New", monospace;
 
-// $base-font-size: 62.5%;
 $base-font-size: 100%;
+$base-line-height: 1.5;
+
+// typographic light
 $base-font-weight: 300;
 $bold-font-weight: 600;
-$base-line-height: 1.5;
+// typographic dark
+$dark-base-font-weight: 200;
+$dark-bold-font-weight: 400;
 
 // viewport breakpoints
 $screen-xs-min: 480px;

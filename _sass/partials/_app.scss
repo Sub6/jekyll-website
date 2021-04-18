@@ -17,6 +17,10 @@ body {
   //   [full-start] minmax(1rem, 1fr)
   //   [main-start] minmax(0, 52rem) [main-end]
   //   minmax(1rem, 1fr) [full-end];
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $dark-background;
+  }
 }
 
 // by default, make any new children of body to span the full track
@@ -49,6 +53,9 @@ nav.menu {
   align-items: center;
   justify-content: space-between;
   background: $brand-color;
+  @media (prefers-color-scheme: dark) {
+    background: $dark-brand-color;
+  }
 
   padding: 0.25rem;
   @media (min-width: $screen-sm-min) {
@@ -204,7 +211,11 @@ main {
 html[data-current="blog"] main > section {
   ul li {
     padding: 1rem 0;
+
     border-bottom: 0.05em solid $hairline-color;
+    @media (prefers-color-scheme: dark) {
+      border-bottom: 0.05em solid $dark-hairline-color;
+    }
     // list-style-type: square;
     list-style-type: none;
     p {
@@ -264,7 +275,11 @@ footer {
   // width: 100%;
   // min-height: 5em;
 
-  background-color: $grey-bg-color;
+  background-color: $foot-bg-color;
+  @media (prefers-color-scheme: dark) {
+    background-color: $dark-foot-bg-color;
+    color: $dark-text-color;
+  }
   text-align: right;
 
   padding: 0.25rem 1rem 0.25rem 0.25rem;
