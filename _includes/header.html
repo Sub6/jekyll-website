@@ -1,11 +1,12 @@
 <header>
-
-  <h1>
-    <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-  </h1>
-
-  <nav>
-    {% include navigation.html navigation=site.data.navigation %}
+  <nav class="menu">
+    <div class="nav-left">
+      <a href="{{ '/' | relative_url }}">
+        <img class="logo" src="/favicon-32x32.png" alt="Night Works"><span>{{ site.title | escape }}</span>
+      </a>
+    </div>
+    <div class="nav-right">
+      {% include navigation.html navigation=site.data.navigation %}
+    </div>
   </nav>
-
 </header>

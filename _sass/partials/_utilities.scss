@@ -1,113 +1,160 @@
 // utilities for modifying some default browser behavior
 
+// html,
+// body,
+// div,
+// span,
+// applet,
+// object,
+// iframe,
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+// p,
+// blockquote,
+// button,
+// pre,
+// a,
+// abbr,
+// acronym,
+// address,
+// big,
+// cite,
+// code,
+// del,
+// dfn,
+// em,
+// img,
+// ins,
+// kbd,
+// q,
+// s,
+// samp,
+// small,
+// strike,
+// strong,
+// sub,
+// sup,
+// tt,
+// var,
+// b,
+// u,
+// i,
+// center,
+// dl,
+// dt,
+// dd,
+// ol,
+// ul,
+// li,
+// fieldset,
+// form,
+// label,
+// legend,
+// caption,
+// tbody,
+// tfoot,
+// thead,
+// tr,
+// th,
+// td,
+// article,
+// aside,
+// canvas,
+// details,
+// embed,
+// figure,
+// figcaption,
+// footer,
+// header,
+// hgroup,
+// menu,
+// nav,
+// output,
+// ruby,
+// section,
+// summary,
+// time,
+// mark,
+// audio,
+// video {
+//   margin: 0;
+//   padding: 0;
+//   border: 0;
+//   font-size: 100%;
+//   font: inherit;
+//   vertical-align: baseline;
+// }
+
+// * {
+//   -webkit-box-sizing: border-box;
+//   -moz-box-sizing: border-box;
+//   box-sizing: border-box;
+// }
+
+// * :before,
+// * :after {
+//   -webkit-box-sizing: border-box;
+//   -moz-box-sizing: border-box;
+//   box-sizing: border-box;
+// }
+
+// input,
+// textarea,
+// button,
+// select,
+// label,
+// a {
+//   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+//   outline: none;
+// }
+
 html,
+header,
 body,
-div,
-span,
-applet,
-object,
-iframe,
+ol,
+ul,
+li,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-p,
-blockquote,
-button,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+h6 {
   margin: 0;
   padding: 0;
   border: 0;
+}
+
+html {
   font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-* {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-* :before,
-* :after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
+// html,
+// body,
+// div,
+// span,
+// applet,
+// object,
+// iframe,
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+// body {
+//   margin: 0px;
+//   padding: 0px;
+//   min-height: 100vh;
+// }
 
-input,
-textarea,
-button,
-select,
-label,
-a {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  outline: none;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 main > ul,
@@ -123,23 +170,23 @@ em {
   font-style: italic;
 }
 
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+// body {
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
 
-img {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
+// img {
+//   display: block;
+//   // width: 100%;
+//   // max-width: 100%;
+//   height: auto;
+// }
 
 pre {
   background-color: rgb(0, 56, 56);
   border-radius: 0.3rem;
   padding: 0.5rem 1rem;
-  font-size: 1.2rem;
+  // font-size: 1.2rem;
   border-left: rgb(69, 143, 106) solid 4px;
 }
 
@@ -148,7 +195,7 @@ pre > code {
 }
 
 // ::selection {
-//   background-color: $selection-bg-color;
+//   background-color: $select-bg-color;
 // }
 
 input,
@@ -165,17 +212,20 @@ textarea {
   max-width: 100%;
 }
 
-button {
-  @include button($link-color, $text-color-negative);
-}
+// button {
+//   // @include button($link-color, $text-color-negative);
+//   border: gray solid 2px;
+//   // background-color: $brand-color;
+//   border: $hairline-color;
+//   color: white;
+// }
 
 blockquote {
-  margin: 0.5rem 0 0.5rem 0;
-  padding: 0 1rem 0 1rem;
-  border-radius: 0.3rem;
+  margin: 0;
   border-left: 3px solid rgba(148, 41, 241, 0.616);
   background-color: rgba(52, 0, 73, 0.1);
   p {
+    padding: 1rem;
     font-size: 90%;
     font-family: $base-font;
   }
@@ -185,18 +235,18 @@ cite {
   display: block;
   text-align: right;
   font-style: italic;
-  color: grey;
+  color: rgb(58, 58, 58);
 }
 
 ul.MainFront {
   li {
     list-style-type: none;
-
-    // margin: 1rem 0 0 0;
+    margin: 1rem 0;
     // border-radius: 0.5rem;
 
-    padding: 1rem 0;
+    // border-left:  3px;
 
+    padding-left: 0.5rem;
     // background-color: rgba(182, 182, 182, 0.1);
     time {
       display: block;
@@ -204,4 +254,8 @@ ul.MainFront {
       font-size: 80%;
     }
   }
+
+  // li:hover {
+  //   border-left: $link-hover-color solid 3px;
+  // }
 }
