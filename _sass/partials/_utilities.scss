@@ -212,13 +212,16 @@ textarea {
   max-width: 100%;
 }
 
-// button {
-//   // @include button($link-color, $text-color-negative);
-//   border: gray solid 2px;
-//   // background-color: $brand-color;
-//   border: $hairline-color;
-//   color: white;
-// }
+button {
+  // @include button($link-color, $text-color-negative);
+  background-color: $brand-color;
+  color: white;
+  border: $dark-foot-bg-color solid 1px;
+  @media (prefers-color-scheme: dark) {
+    color: rgb(192, 192, 192);
+    background-color: $dark-brand-color;
+  }
+}
 
 blockquote {
   margin: 0;
