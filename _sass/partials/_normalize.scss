@@ -198,7 +198,6 @@ hr {
   @media (prefers-color-scheme: dark) {
     background: $dark-text-color;
     border-right: $dark-link-color solid 12px;
-
   }
 }
 
@@ -402,7 +401,6 @@ optgroup {
 table {
   margin: 0.5rem auto 1rem auto;
 
-  
   border-collapse: collapse;
 }
 
@@ -426,4 +424,8 @@ th {
   padding: 0.2em;
   font-size: 90%;
   vertical-align: middle;
+}
+
+video {
+  width: 100%;
 }
