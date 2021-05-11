@@ -38,7 +38,7 @@ You can see the progress on the left corner.
 
 When the creation is finished and the VM is booted you will see a green dot and ***Running***.
 
-Click on Launch ***LISH Console***. Another window will open and you will be asked for the login (root) and the password (root password you chose during setup)
+Click on ***Launch LISH Console***. Another window will open and you will be asked for the login (root) and the password. (root password you chose during setup)
 
 The VM Image is farely up-to-date, but just to be sure.
 
