@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Install Yunohost on linode.com
-meta_description: How to install Yunohost on a Linode.com VM
+title: Install Yunohost on a Linode VM
+meta_description: How to install Yunohost on a Linode VM
 author: malte_sanders
 date: '2021-05-11 08:32:00'
 categories: cloud server selfhosting Linux misc
