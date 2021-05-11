@@ -23,15 +23,15 @@ For the setup choose something like this (alter if you feel like it and know wha
 
 | Parameter | Value
 |-|:-|
-| ***Distribution*** | 
-| `Image` | Debian 10 |
-| ***Region*** | 
-| `Region` | choose whatever you like or is close|
-| ***Linode Plan*** | 
-| `Shared CPU` | Nanode 1 GB or Linode 2 GB or bigger|
-| ***Miscellaneous*** | 
-| `Linode Label` | any name you thing fits|
-| `Root Password` | Password for the VMs root |
+| ***Distribution*** 
+| `Image` | Debian 10 
+| ***Region*** 
+| `Region` | choose whatever you like or is close
+| ***Linode Plan*** 
+| `Shared CPU` | Nanode 1 GB or Linode 2 GB or bigger
+| ***Miscellaneous*** 
+| `Linode Label` | any name you thing fits
+| `Root Password` | Password for the VMs root
 <br>
 
 After you have verified your selection click on ***Create Linode*** on the right side. Wait while the VM is beeing created.<br>
