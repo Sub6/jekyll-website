@@ -7,7 +7,7 @@ date: '2021-05-11 08:32:00'
 categories: cloud server selfhosting Linux misc
 ---
 
-Since they are very simple to use and kind of cheap I thought I might give [linode.com](https://www.linode.com) a shot for selfhosting. As a platform I decided on Yunohost, because it is versatile and the easiest to setup.
+Since they are very simple to use and kind of cheap I thought I might give [linode.com](https://www.linode.com) a shot for selfhosting. As a platform I decided on [Yunohost](https://yunohost.org/), because it is versatile and very easy to setup.
 
 Grab a coffee or tea and let's go. The process takes around 10-15 Minutes.
 
@@ -23,15 +23,12 @@ For the setup choose something like this (alter if you feel like it and know wha
 
 | Parameter | Value
 |-|:-|
-| ***Distribution*** 
 | `Image` | Debian 10 
-| ***Region*** 
 | `Region` | choose whatever you like or is close
-| ***Linode Plan*** 
-| `Shared CPU` | Nanode 1 GB or Linode 2 GB or bigger
-| ***Miscellaneous*** 
-| `Linode Label` | any name you thing fits
+| `Linode Plan` | Nanode 1 GB or Linode 2 GB or bigger
+| `Linode Label` | any name you thing fits your project
 | `Root Password` | Password for the VMs root
+
 <br>
 
 After you have verified your selection click on ***Create Linode*** on the right side. Wait while the VM is beeing created.<br>
@@ -60,7 +57,7 @@ Some prompts will ask you about configuration details. Read and agree. Now wait 
 
 After the setup finished head over to the shown adress, or look in in you Linode Browser Tab for the ***Network*** configuration for the reverse DNS Adress.
 
-Head over to one of those. Your browser will tell you that the connection is not secure. Ignore this for the moment and continue with the setup as the wizard will guide you through the steps. FOr more informations head over to the 
+Head over to one of those. Your browser will tell you that the connection is not secure. Ignore this for the moment and continue with the setup as the wizard will guide you through the steps. For more informations head over to the [Admindoc of Yunohost](https://yunohost.org/de/admindoc)
 
 Now what is left for you to do if you like:
 
