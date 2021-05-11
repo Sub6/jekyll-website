@@ -62,6 +62,9 @@ After the setup finished head over to the shown adress, or look in in you Linode
 
 Head over to one of those. Your browser will tell you that the connection is not secure. Ignore this for the moment and continue with the setup as the wizard will guide you through the steps. For more informations head over to the [Admindoc of Yunohost](https://yunohost.org/de/admindoc)
 
+--------------
+## ToDo
+
 Now what is left for you to do if you like:
 
 1. Setup and connect your Domains [More Informations](https://yunohost.org/de/dns_config)
