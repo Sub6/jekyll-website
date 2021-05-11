@@ -3,13 +3,13 @@ layout: post
 title: Install Yunohost on linode.com
 meta_description: How to install Yunohost on a Linode.com VM
 author: malte_sanders
-date: '2021-05-11 20:32:00'
+date: '2021-05-11 08:32:00'
 categories: cloud server selfhosting Linux misc
 ---
 
-Since they are very simple to use and kind of cheap I thought I might give [linode.com](https://www.linode.com) a shot for selfhosting. As platform I decided on Yunohost, because it is versatile and the easiest to setup. (and because an articel by flashed up on my phone).
+Since they are very simple to use and kind of cheap I thought I might give [linode.com](https://www.linode.com) a shot for selfhosting. As a platform I decided on Yunohost, because it is versatile and the easiest to setup.
 
-Grab a coffee and let's go. The process takes around 10-15 Minutes.
+Grab a coffee or tea and let's go. The process takes around 10-15 Minutes.
 
 --------------
 ## Linode configuration
