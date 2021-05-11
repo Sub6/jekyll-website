@@ -27,9 +27,9 @@ It will be used to access and set some settings directly on your phone. But only
 
 If you have Linux, go into your repository and just install the package **adb**. In Debian, Ubuntu or PopOS! for example, all you need to do is running following command in terminal:
 
-~~~
+{% highlight bash %}
 % sudo apt install adb
-~~~
+{% endhighlight %}
 
 Done.
 
@@ -54,18 +54,18 @@ On phone, access the **Developer Options** and enable **USB Debugging**. If you 
 
 Now connect you phone to your pc with adb via physical USB cable. Call up the command line or terminal on your pc and type:
 
-~~~
+{% highlight bash %}
 % adb devices
-~~~
+{% endhighlight %}
 
 This first command is merely for checking if everything works as desired. If you do this the first time, your phone will ask you to trust the pc it is connected to while displaying an RSA fingerprint of your pc. Also allow it by tapping _OK_.
 
 Optionally, you can also check _Always allow from this computer_. Then it won't ask you again the next time. After you've confirmed that your phone is ready, running the command mentioned above will yield something like this:
 
-```
+{% highlight bash %}
 List of devices attached
 <devices series number>	device
-```
+{% endhighlight %}
 
 It should display the series number of your phone only. Unplug any other devices, if you have multiple devices listed here to keep everything sane and simple.
 
@@ -77,16 +77,16 @@ Now we're finally ready to explore the Airplane mode setting.
 
 Let's start by entering the shell of your Android device with the command `adb shell`. If successful, it will look like this:
 
-~~~
+{% highlight bash %}
 % adb shell
 brot:/ $ _
-~~~
+{% endhighlight %}
 
 Typically instead of `brot`, there will be an abbreviation of your device name. From here, you might try to type:
 
-~~~
+{% highlight bash %}
 $ settings get global airplane_mode_radios
-~~~
+{% endhighlight %}
 
 ### Explanation
 
@@ -108,9 +108,9 @@ Let's say, you have some active bluetooth connections running, be it because of 
 
 The following setting will help you with that:
 
-~~~
+{% highlight bash %}
 $ settings set global airplane_mode_radios cell,wifi,nfc,wimax
-~~~
+{% endhighlight %}
 
 With this, every time you switch on Airplane Mode, all radios will be turned off except for `bluetooth`, since we left out that keyword in the settings. In fact, Airplane Mode won't touch your Bluetooth setting anymore. Every keyword you left out in above setting, it will be ignored if it is activated.
 
