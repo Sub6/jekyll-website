@@ -67,6 +67,8 @@ Head over to one of those. Your browser will tell you that the connection is not
 
 Now what is left for you to do if you like:
 
+I strongly advise you setup your DNS configuration with your Domain provider, prior to doing anything else.
+
 1. Setup and connect your Domains [More Informations](https://yunohost.org/de/dns_config)
 2. Generate your Lets Encrypt Certificates. [More Informations](https://yunohost.org/de/certificate)
 3. Install all the applications you want, setup Users and play around
