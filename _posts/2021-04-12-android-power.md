@@ -16,7 +16,7 @@ All you need is a pc or laptop, which can run **adb** (Android Debug Bridge). Th
 > Android Debug Bridge (adb) is a versatile command-line tool that lets you communicate with a device. The adb command facilitates a variety of device actions, such as installing and debugging apps, and it provides access to a Unix shell that you can use to run a variety of commands on a device.
 > <cite>from Google [1]</cite>
 
-[1]: https://developer.android.com/studio/command-line/adb{:target="_blank"}
+[1]: https://developer.android.com/studio/command-line/adb
 
 It will be used to access and set some settings directly on your phone. But only for that? Tsk, do not underestimate adb, since it can do many more things than that! But for the sake of this article, we settle down for the customization of our Airplane Mode.
 
