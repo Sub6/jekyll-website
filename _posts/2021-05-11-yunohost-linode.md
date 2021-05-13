@@ -7,7 +7,7 @@ date: '2021-05-11 08:32:00'
 categories: cloud server selfhosting Linux misc
 ---
 
-Since they are very simple to use and kind of cheap I thought I might give [linode.com](https://www.linode.com) a shot for selfhosting. As a platform I decided on [Yunohost](https://yunohost.org/), because it is versatile and very easy to setup.
+Since they are very simple to use and kind of cheap (5-10 $ per month) I thought I might give [linode.com](https://www.linode.com) a shot for selfhosting. As a platform I decided on [Yunohost](https://yunohost.org/), because it is versatile and very easy to setup.
 
 Grab a coffee or tea and let's go. The process takes around 10-15 Minutes.
 
