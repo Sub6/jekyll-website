@@ -16,7 +16,7 @@ All you need is a pc or laptop, which can run **adb** (Android Debug Bridge). Th
 > Android Debug Bridge (adb) is a versatile command-line tool that lets you communicate with a device. The adb command facilitates a variety of device actions, such as installing and debugging apps, and it provides access to a Unix shell that you can use to run a variety of commands on a device.
 > <cite>from Google [1]</cite>
 
-[1]: https://developer.android.com/studio/command-line/adb
+[1]: https://developer.android.com/studio/command-line/adb{:target="_blank"}
 
 It will be used to access and set some settings directly on your phone. But only for that? Tsk, do not underestimate adb, since it can do many more things than that! But for the sake of this article, we settle down for the customization of our Airplane Mode.
 
@@ -33,13 +33,13 @@ If you have Linux, go into your repository and just install the package **adb**.
 
 Done.
 
-If, for whatever reason, you want to install that package directly from Google, open [this](https://dl.google.com/android/repository/platform-tools-latest-linux.zip). It is a link directly to the latest ZIP file for download. Follow the instruction in that package.
+If, for whatever reason, you want to install that package directly from Google, open [this](https://dl.google.com/android/repository/platform-tools-latest-linux.zip){:target="_blank"}. It is a link directly to the latest ZIP file for download. Follow the instruction in that package.
 
 ### Windows / Mac
 
-Check if you have the right USB driver at all. Please visit Googles help for this [here](https://developer.android.com/studio/run/oem-usb.html).
+Check if you have the right USB driver at all. Please visit Googles help for this [here](https://developer.android.com/studio/run/oem-usb.html){:target="_blank"}.
 
-Then you need to download and install adb for [Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) or [Mac](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip). These links will lead to the latest corresponding ZIP packages. Follow the instruction in that package.
+Then you need to download and install adb for [Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip){:target="_blank"} or [Mac](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip){:target="_blank"}. These links will lead to the latest corresponding ZIP packages. Follow the instruction in that package.
 
 
 ## Prepare adb and your phone

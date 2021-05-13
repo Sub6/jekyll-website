@@ -7,13 +7,13 @@ date: '2021-05-11 08:32:00'
 categories: cloud server selfhosting Linux misc
 ---
 
-Since they are very simple to use and kind of cheap (5-10 $ per month) I thought I might give [linode.com](https://www.linode.com) a shot for selfhosting. As a platform I decided on [Yunohost](https://yunohost.org/), because it is versatile and very easy to setup.
+Since they are very simple to use and kind of cheap (5-10 $ per month) I thought I might give [linode.com](https://www.linode.com){:target="_blank"} a shot for selfhosting. As a platform I decided on [Yunohost](https://yunohost.org/){:target="_blank"}, because it is versatile and very easy to setup.
 
 Grab a coffee or tea and let's go. The process takes around 10-15 Minutes.
 
 --------------
 ## Linode configuration
-Go to [linode.com](https://www.linode.com) and setup an account. Look for some promotional codes. I got 100 Dollar to be used in three month for free. 
+Go to [linode.com](https://www.linode.com){:target="_blank"} and setup an account. Look for some promotional codes. I got 100 Dollar to be used in three month for free. 
 
 After you signed up and logged in, click on ***Create*** and choose Linode.
 
@@ -60,7 +60,7 @@ Some prompts will ask you about configuration details. Read and agree. Now wait 
 
 After the setup finished head over to the shown adress, or look in in you Linode Browser Tab for the ***Network*** configuration for the reverse DNS Adress.
 
-Head over to one of those. Your browser will tell you that the connection is not secure. Ignore this for the moment and continue with the setup as the wizard will guide you through the steps. For more informations head over to the [Admindoc of Yunohost](https://yunohost.org/de/admindoc)
+Head over to one of those. Your browser will tell you that the connection is not secure. Ignore this for the moment and continue with the setup as the wizard will guide you through the steps. For more informations head over to the [Admindoc of Yunohost](https://yunohost.org/de/admindoc){:target="_blank"}
 
 --------------
 ## ToDo
@@ -69,8 +69,8 @@ Now what is left for you to do if you like:
 
 I strongly advise you setup your DNS configuration with your Domain provider, prior to doing anything else.
 
-1. Setup and connect your Domains [More Informations](https://yunohost.org/de/dns_config)
-2. Generate your Lets Encrypt Certificates. [More Informations](https://yunohost.org/de/certificate)
+1. Setup and connect your Domains [More Informations](https://yunohost.org/de/dns_config){:target="_blank"}
+2. Generate your Lets Encrypt Certificates. [More Informations](https://yunohost.org/de/certificate){:target="_blank"}
 3. Install all the applications you want, setup Users and play around
 
 Have fun with your own kind of selfhosted cloud.
