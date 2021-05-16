@@ -9,7 +9,7 @@ categories: android airplane_mode misc
 
 You want to turn on **Airplane Mode** on your Android phone, but don't want Bluetooth to be disabled every time? Or even, you want to customize what to turn off with Airplane Mode?
 
-Very well, I can give you a rough idea of how that can be done. You can do this for every Android Version with at least an API Level 17. That means, this is possible since Android 4.2.
+Very well, I can give you a rough idea on how that can be done. You can do this for every Android Version with at least an API Level 17. That means, this is possible since Android 4.2.
 
 All you need is a pc or laptop, which can run **adb** (Android Debug Bridge). That's it. No third party app or software, only tools which you can fetch from Google directly.
 
@@ -25,7 +25,7 @@ It will be used to access and set some settings directly on your phone. But only
 
 ### Linux
 
-If you have Linux, go into your repository and just install the package **adb**. In Debian, Ubuntu or PopOS! for example, all you need to do is running following command in terminal:
+If you have Linux, go into your repository and just install the package **adb**. In Debian, Ubuntu or Pop!_OS for example, all you need to do is running following command in terminal:
 
 {% highlight bash %}
 % sudo apt install adb
@@ -49,7 +49,7 @@ After the installation is done, we need to prepare your phone first.
 
 On phone, access the **Developer Options** and enable **USB Debugging**. If you don't know what I'm talking about, start from step 1, else go on with step 2.
 
-1. Go into **Settings**, find the Build Number and tap on it seven times. Now  Developer mode will be enabled.
+1. Go into **Settings**, find the Build Number and tap on it seven times. Now Developer mode will be enabled.
 2. Go back into Settings, tap on Developer Options, find the option USB-Debugging and enable it. You will be asked something like _Allow USB debugging?_ Agree to that by tapping on _OK_. By the way, you will be asked this every time if you enable that again.
 
 Now connect you phone to your pc with adb via physical USB cable. Call up the command line or terminal on your pc and type:
