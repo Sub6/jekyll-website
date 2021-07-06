@@ -7,9 +7,11 @@ date: "2021-05-25 15:32:00"
 categories: android custom_rom root twrp recovery samsung linux heimdall
 ---
 
-Do you have a very old tablet or smartphone with its warranty expired long ago already? Is it a device you still want to use no matter what? But you are concerned about security, since it runs a very old Android, something around Lollipop (5.x.x) or even older for example?
+Do you have a very old tablet or smartphone with its warranty expired long ago already? Is it a device you still want to use no matter what? But you're concerned about security, since it runs a very old Android, something around Lollipop (5.x.x) or even older for example?
 
 Very well, I tell you **one way** how to deal with this issue. It will be about running a custom ROM on your Android device.
+
+A little warning beforehand, if you should read this article far in the future, it might be that some links are already invalid. In this case, try to search specifically for those keywords. This will increase the chance to get to the place you want to.
 
 ## Cons and Pro
 
@@ -23,15 +25,18 @@ First the reasons why you should not do this.
 
 - Nowadays, installing a custom ROM has a high success rate, but it will never be 100 percent. **It is thus possible to make the device completely unusable**.
 
-Not the reasons why you should try this.
+Now the reasons why you should try this. 
 
-- If your device is too old for any vendor updates anyway, **you can make it usable again** via custom ROM. You might be able to run many new apps again even. Also, why buying a new device, if you are still happy with your old one?
+- If your device is too old for any vendor updates anyway, **you can make it usable again** via custom ROM. You might be able to run many new apps again even. Also, why buying a new device, if you're still happy with your old one?
 
-- Newer devices are often preloaded with so-called bloatware, software which cannot uninstalled. Custom ROMs are usually preloaded with only the utmost important software. **It is in general free from bloatware** in contrast to a stock vendor device.
+- Newer devices are often preloaded with so-called bloatware, software which cannot uninstalled. Custom ROMs are usually preloaded with only the utmost important software. It is **in general free from bloatware** in contrast to a stock vendor device.
 
-- Since preloaded Google software is not allowed, **all custom ROMs are free of Google software**. But some custom ROMs go much further and completely shut down every telemetry to Google even.
+- Since preloaded Google software is not allowed, **all custom ROMs are free of Google software**. But some custom ROMs go much further and even completely shut down every telemetry to Google.
 
 - And at last, **running an old Android version is a security risk in itself**. Old Android versions do not receive any updates anymore, neither functionality nor security updates.
+
+So you see, for your own security, the suggestion is to either ditch your old phone or revive it via a custom ROM. On the one hand, old Android version might run more smoothly than newer version, which is often true unfortunately. On the other hand, because of the nature of custom ROMs, these new Android versions are not only completely free from unnecessary bloatware and alike, they tend to run faster because of various improvements made over the years.
+
 
 ## General Process Overview
 
@@ -42,7 +47,7 @@ The general steps to get a custom ROM onto your device of choice is quite straig
 - Find an appropriate custom ROM of your liking to install
 - Prepare _heimdall_ (or _fastboot_)
 - Unlock the device's bootloader if needed
-- Install a custom recovery image
+- Installing a custom recovery image
 - via custom recovery, install custom ROM
 
 To be able to execute the steps above, you need to physically connect your device to a PC via USB cable. I am using Linux for this process, so some minor details might be different in Mac or Windows, but the general steps should be the same.
@@ -51,9 +56,15 @@ To be able to execute the steps above, you need to physically connect your devic
 
 ---
 
-There are no best custom ROM out there, but if you are new to this, it is best to start out with something generally known. **LineageOS** is one of the best known among custom ROMs. It is said to be one of the most stable custom ROMs available and has a wide range of supported devices. It is thus ideal for beginners.
+There are quite a number of various custom ROMs with different ideology or focuses. One is specialized in being customizable down to the core, others promise to be especially stable and so on.
 
-Of course, it is only a suggestion. You are free to use any other custom ROMs available for your device. To gather more information on this, you should visit the [XDA Developer Forums](https://forum.xda-developers.com/). It is the best known place to find more information about your device and what custom ROM is actually available for that specific device.
+In short, there is no ultimate custom ROMs for everyone.
+
+But for starters, especially if you're totally new to this, there is **LineageOS**, which derived from Cyanogenmod in the past. It is one of the ROMs with the widest coverage for any devices ever made for Android to run on it. Furthermore, unless you have a Pixel phone directly maintained by Google themselves, which has Vanilla Android, LineageOS is relatively close to that Vanilla Android.
+
+Even if the list of officially supported devices is not nearly complete, there are still numerous unofficially supported devices maintained by various individuals, who took in LineageOS and adjusted it to run smooth on many more devices besides the officially supported one. The reason is the many quirks of different devices or worse, the proprietary drivers for certain components of that device.
+
+Of course, it is only a suggestion. You are free to use any other custom ROMs available for your device, if you know what you need. To gather more information on this, you should visit the [XDA Developer Forums](https://forum.xda-developers.com/). It is the best known place to find more information about your device and what custom ROM is actually available for that specific device.
 
 Even though the website changes sometimes, in general, many devices have their own forum for discussion. It is in most cases _the_ gathering spot also for developers themselves, where they can announce and share their custom ROMs to the world.
 
